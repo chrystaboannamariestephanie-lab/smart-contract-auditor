@@ -1,0 +1,25 @@
+{
+  "name": "smart-contract-auditor",
+  "version": "1.0.0",
+  "description": "GitHub App for Solidity smart contract auditing.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "probot run ./dist/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "probot": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "jest": "^29.6.0",
+    "ts-node": "^10.9.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": "^20.0.0"
+  }
+}
